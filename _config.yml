@@ -1,43 +1,31 @@
 # Site settings
-title:       Pixyll
-email:       your_email@example.com
-author:      John Otander
-description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
-baseurl:     ""
-url:         "http://pixyll.com"
+title:       42ish
+email:       logan.graham@balliol.ox.ac.uk
+author:      Ali Rizvi and Logan Graham
+description: "Our thoughts online."
+baseurl:     "/blog"
+url:         "http://42ish.com"
 date_format: "%b %-d, %Y"
 
-# Google services
-google_analytics:
-google_verification:
+# Google analytics
+google_analytics: UA-51657413-3
 
 # Optional features
-animated:             false
-show_related_posts:   false
-show_post_footers:    false
-show_social_icons:    false
-ajaxify_contact_form: false
-enable_mathjax: false
+animated:           false
+show_related_posts: false
+show_post_footers:  false
+show_social_icons:  false
 
 # Disqus post comments
 # (leave blank to disable Disqus)
 disqus_shortname:
 
-# Facebook Comments plugin
-# (leave blank to disable Facebook Comments, otherwise set it to true)
-facebook_comments:
-facebook_appid:
-facebook_comments_number: 10
-
 # Social icons
-github_username:
-bitbucket_username:
+github_username: logangraham
 stackoverflow_id:
 twitter_username:
-skype_username:
-steam_nickname:
 google_plus_id:
-linkedin_username:
+linkedin_username: logangraham
 angellist_username:
 medium_id:
 bitcoin_url:
@@ -46,6 +34,7 @@ flattr_button:
 
 # Post sharing icons
 show_sharing_icons: false
+share_text: 'Share this post!'
 # Change to 'true' to enable individual icons
 share_facebook: false
 share_twitter: false
@@ -57,39 +46,6 @@ share_reddit: false
 share_stumbleupon: false
 share_hackernews: false
 
-text:
-  pagination:
-    newer: 'Newer'
-    older: 'Older'
-  share_buttons:
-    text:         'Share this post!'
-    facebook:     'Share on Facebook'
-    twitter:      'Share on Twitter'
-    googleplus:   'Share on Google+'
-    linkedin:     'Share on LinkedIn'
-    digg:         'Share on Digg'
-    tumblr:       'Share on Tumblr'
-    reddit:       'Share on Reddit'
-    stumbleupon:  'Share on StumbleUpon'
-    hackernews:   'Share on Hacker News'
-  post:
-    updated:        'Updated'
-    minute_read:    'minute read'
-    related_posts:  'Related Posts'
-  index:
-    coming_soon: 'Coming soon...'
-  contact:
-    email:    'Email Address'
-    content:  'What would you like to say?'
-    subject:  'New submission!'
-    submit:   'Say Hello'
-    ajax:
-      sending:  'sending..'
-      sent:     'Message sent!'
-      error:    'Error!'
-  thanks: 'Thanks for contacting us. We will reply as soon as possible.'
-
-
 # Build settings
 markdown:     kramdown
 redcarpet:
@@ -99,7 +55,4 @@ paginate:     4
 sass:
   compressed: true
 gems:
-  - jekyll-paginate
   - jekyll-sitemap
-# https://github.com/jekyll/jekyll/issues/2938
-exclude: [vendor]

@@ -9,7 +9,7 @@ abbr {
 
 p {
   color: #333;
-  line-height: 1.5;
+  line-height: $line-height;
 }
 
 small,
@@ -17,8 +17,11 @@ small,
   font-size: 0.707rem;
 }
 
-sup {
-  position: relative;
-  vertical-align: middle;
-  top: -0.9ex;
+.caption
+{
+	text-align: center;
+	display: block;
+	font-size: 0.707rem;
+	color: #D3D3D3;
+	font-style: italic;
 }

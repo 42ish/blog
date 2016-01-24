@@ -5,7 +5,7 @@
 
   h1,
   .h1 {
-    font-size: $h1;
+    font-size: 2.998rem;
   }
 
   .site-header {
@@ -34,14 +34,6 @@
     margin-left: $space-3;
     padding: $space-3;
   }
-
-  .social-icons-left {
-    text-align: left;
-  }
-
-  .social-icons-right {
-    text-align: right;
-  }
 }
 
 @media screen and (min-width: $viewport-medium) {
@@ -53,12 +45,5 @@
 @media screen and (min-width: $viewport-large) {
   html {
     font-size: 20px;
-  }
-}
-
-@media screen and (min-width: $viewport-large + 14) {
-  em img {
-    max-width: $measure-width + 14;
-    margin-left: -7em;
   }
 }
