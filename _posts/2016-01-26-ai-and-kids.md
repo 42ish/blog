@@ -2,7 +2,7 @@
 layout:     post
 title:      What I Wish My Parents Had Taught Me About AI
 date:       2016-01-26
-summary:    Warning: not for the faint-hearted parent
+summary:    Not for the faint-hearted parent
 categories: 
 ---
 
